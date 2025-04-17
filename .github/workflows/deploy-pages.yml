@@ -18,6 +18,8 @@ jobs:
           lfs: true
 
       - uses: actions/setup-node@v4
+        with:
+          node-version: 23
 
       - name: Run install
         uses: borales/actions-yarn@v4
