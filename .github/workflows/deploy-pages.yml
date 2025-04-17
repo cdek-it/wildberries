@@ -21,6 +21,8 @@ jobs:
         with:
           node-version: 23
 
+      - run: corepack enable
+
       - name: Run install
         uses: borales/actions-yarn@v4
         with:
