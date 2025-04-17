@@ -30,6 +30,8 @@ jobs:
 
       - name: Build production bundle
         uses: borales/actions-yarn@v4
+        env:
+          FLOMNI_CLIENT: 5fe5b6acad3a3c00132c591f
         with:
           cmd: docs:build
 
